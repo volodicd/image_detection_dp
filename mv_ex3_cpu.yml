@@ -1,0 +1,18 @@
+name: mv_ex3_cpu
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - cpuonly
+  - pytorch
+  - torchvision
+  - pytorch-model-summary
+  - numpy
+  - matplotlib
+  - jupyter
+  - requests
+  - imageio

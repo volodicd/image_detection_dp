@@ -1,0 +1,19 @@
+name: mv_ex3_gpu
+
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pytorch-model-summary
+  - numpy
+  - matplotlib
+  - jupyter
+  - requests
+  - imageio
